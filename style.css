@@ -49,6 +49,7 @@ button {
     padding-inline: 20px;
     font-size: 13px;
     outline: none;
+    margin-top: 10px;
     
 }
 
@@ -58,3 +59,68 @@ button {
     padding: 60px;
     padding-right: 100px;
 }
+
+.box3 {
+    text-align: center;
+    color: #1F2937;
+    padding-bottom: 100px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box4 {
+    background-color: #E5E7EB;
+    padding: 125px;
+    font-size: 36px;
+    font-weight: 100;
+    justify-content: center;
+}
+
+.box5 {
+    display: flex;
+    flex-direction: row;
+    padding: 125px;
+    justify-content: center;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: white;
+    padding: 50px;
+    gap: 18px;
+    
+}
+
+p, h3 {
+    margin: 0px;
+    padding: 0px;
+  }
+
+ .whitebutton { 
+    color: white;
+    border-color: white;
+    padding: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    outline: white 0.5em  auto;
+ 
+ }
+
+ .footer {
+    background-color: #1F2937;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 8px;
